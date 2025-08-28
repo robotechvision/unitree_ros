@@ -584,6 +584,12 @@
     <child link="d435_link"/>
   </joint>
 
+  <link name="d435_cam_link"/>
+  <joint name="d435_cam_joint" type="fixed">
+    <origin xyz="0.0 0.0 0.0" rpy="-1.570796327 0 -1.570796327"/>
+    <parent link="d435_link"/>
+    <child link="d435_cam_link"/>
+  </joint>
 
   <link name="mid360_link"/>
   <joint name="mid360_joint" type="fixed">
