@@ -593,7 +593,7 @@
 
   <link name="mid360_link"/>
   <joint name="mid360_joint" type="fixed">
-    <origin xyz="0.0002835 0.00003 0.41618" rpy="0 0.04014257279586953 0"/>
+    <origin xyz="0.0002835 0.00003 0.41618" rpy="3.1415926536 0.04014257279586953 0"/>
     <parent link="torso_link"/>
     <child link="mid360_link"/>
   </joint>
@@ -2720,5 +2720,4 @@
     <child link="right_little_force_sensor_1"/>
     <axis xyz="0 0 0"/>
   </joint>
-
 </robot>
