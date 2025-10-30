@@ -1087,7 +1087,7 @@
     <parent link="left_base_link"/>
     <child link="left_thumb_1"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="1.1641" effort="10" velocity="1"/>
+    <limit lower="0" upper="1.1641" effort="10" velocity="10"/>
   </joint>
   <link name="left_thumb_2">
     <inertial>
@@ -1116,7 +1116,7 @@
     <parent link="left_thumb_1"/>
     <child link="left_thumb_2"/>
     <axis xyz="0 0 -1"/>
-    <limit lower="0" upper="0.5864" effort="10" velocity="1"/>
+    <limit lower="0" upper="0.5864" effort="10" velocity="10"/>
   </joint>
   <link name="left_thumb_force_sensor_1">
     <inertial>
@@ -1173,7 +1173,7 @@
     <parent link="left_thumb_2"/>
     <child link="left_thumb_3"/>
     <axis xyz="0 0 -1"/>
-    <limit lower="0" upper="0.5" effort="10" velocity="1"/>
+    <limit lower="0" upper="0.5" effort="10" velocity="10"/>
     <mimic joint="left_thumb_2_joint" multiplier="0.8024" offset="0"/>
   </joint>
   <link name="left_thumb_force_sensor_2">
@@ -1231,7 +1231,7 @@
     <parent link="left_thumb_3"/>
     <child link="left_thumb_4"/>
     <axis xyz="0 0 -1"/>
-    <limit lower="0" upper="3.14" effort="10" velocity="1"/>
+    <limit lower="0" upper="3.14" effort="10" velocity="10"/>
     <mimic joint="left_thumb_3_joint" multiplier="0.9487" offset="0"/>
   </joint>
   <link name="left_thumb_force_sensor_3">
@@ -1317,7 +1317,7 @@
     <parent link="left_base_link"/>
     <child link="left_index_1"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="1.4381" effort="10" velocity="1"/>
+    <limit lower="0" upper="1.4381" effort="10" velocity="10"/>
   </joint>
   <link name="left_index_force_sensor_1">
     <inertial>
@@ -1374,7 +1374,7 @@
     <parent link="left_index_1"/>
     <child link="left_index_2"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="3.14" effort="10" velocity="1"/>
+    <limit lower="0" upper="3.14" effort="10" velocity="10"/>
     <mimic joint="left_index_1_joint" multiplier="1.0843" offset="0"/>
   </joint>
   <link name="left_index_force_sensor_2">
@@ -1460,7 +1460,7 @@
     <parent link="left_base_link"/>
     <child link="left_middle_1"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="1.4381" effort="10" velocity="1"/>
+    <limit lower="0" upper="1.4381" effort="10" velocity="10"/>
   </joint>
   <link name="left_middle_force_sensor_1">
     <inertial>
@@ -1517,7 +1517,7 @@
     <parent link="left_middle_1"/>
     <child link="left_middle_2"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="3.14" effort="10" velocity="1"/>
+    <limit lower="0" upper="3.14" effort="10" velocity="10"/>
     <mimic joint="left_middle_1_joint" multiplier="1.0843" offset="0"/>
   </joint>
   <link name="left_middle_force_sensor_2">
@@ -1603,7 +1603,7 @@
     <parent link="left_base_link"/>
     <child link="left_ring_1"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="1.4381" effort="10" velocity="1"/>
+    <limit lower="0" upper="1.4381" effort="10" velocity="10"/>
   </joint>
   <link name="left_ring_force_sensor_1">
     <inertial>
@@ -1660,7 +1660,7 @@
     <parent link="left_ring_1"/>
     <child link="left_ring_2"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="3.14" effort="10" velocity="1"/>
+    <limit lower="0" upper="3.14" effort="10" velocity="10"/>
     <mimic joint="left_ring_1_joint" multiplier="1.0843" offset="0"/>
   </joint>
   <link name="left_ring_force_sensor_2">
@@ -1746,7 +1746,7 @@
     <parent link="left_base_link"/>
     <child link="left_little_1"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="1.4381" effort="10" velocity="1"/>
+    <limit lower="0" upper="1.4381" effort="10" velocity="10"/>
   </joint>
   <link name="left_little_force_sensor_1">
     <inertial>
@@ -1803,7 +1803,7 @@
     <parent link="left_little_1"/>
     <child link="left_little_2"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="3.14" effort="10" velocity="1"/>
+    <limit lower="0" upper="3.14" effort="10" velocity="10"/>
     <mimic joint="left_little_1_joint" multiplier="1.0843" offset="0"/>
   </joint>
   <link name="left_little_force_sensor_2">
@@ -1945,7 +1945,7 @@
     <parent link="right_base_link"/>
     <child link="right_thumb_1"/>
     <axis xyz="0 0 -1"/>
-    <limit lower="0" upper="1.1641" effort="10" velocity="1"/>
+    <limit lower="0" upper="1.1641" effort="10" velocity="10"/>
   </joint>
   <link name="right_thumb_2">
     <inertial>
@@ -1974,7 +1974,7 @@
     <parent link="right_thumb_1"/>
     <child link="right_thumb_2"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="0.5864" effort="10" velocity="1"/>
+    <limit lower="0" upper="0.5864" effort="10" velocity="10"/>
   </joint>
   <link name="right_thumb_3">
     <inertial>
@@ -2003,7 +2003,7 @@
     <parent link="right_thumb_2"/>
     <child link="right_thumb_3"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="0.5" effort="10" velocity="1"/>
+    <limit lower="0" upper="0.5" effort="10" velocity="10"/>
     <mimic joint="right_thumb_2_joint" multiplier="0.8024" offset="0"/>
   </joint>
   <link name="right_thumb_force_sensor_2">
@@ -2061,7 +2061,7 @@
     <parent link="right_thumb_3"/>
     <child link="right_thumb_4"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="3.14" effort="10" velocity="1"/>
+    <limit lower="0" upper="3.14" effort="10" velocity="10"/>
     <mimic joint="right_thumb_3_joint" multiplier="0.9487" offset="0"/>
   </joint>
   <link name="right_thumb_force_sensor_3">
@@ -2175,7 +2175,7 @@
     <parent link="right_base_link"/>
     <child link="right_index_1"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="1.4381" effort="10" velocity="1"/>
+    <limit lower="0" upper="1.4381" effort="10" velocity="10"/>
   </joint>
   <link name="right_index_2">
     <inertial>
@@ -2204,7 +2204,7 @@
     <parent link="right_index_1"/>
     <child link="right_index_2"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="3.14" effort="10" velocity="1"/>
+    <limit lower="0" upper="3.14" effort="10" velocity="10"/>
     <mimic joint="right_index_1_joint" multiplier="1.0843" offset="0"/>
   </joint>
   <link name="right_index_force_sensor_2">
@@ -2318,7 +2318,7 @@
     <parent link="right_base_link"/>
     <child link="right_middle_1"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="1.4381" effort="10" velocity="1"/>
+    <limit lower="0" upper="1.4381" effort="10" velocity="10"/>
   </joint>
   <link name="right_middle_2">
     <inertial>
@@ -2347,7 +2347,7 @@
     <parent link="right_middle_1"/>
     <child link="right_middle_2"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="3.14" effort="10" velocity="1"/>
+    <limit lower="0" upper="3.14" effort="10" velocity="10"/>
     <mimic joint="right_middle_1_joint" multiplier="1.0843" offset="0"/>
   </joint>
   <link name="right_middle_force_sensor_2">
@@ -2461,7 +2461,7 @@
     <parent link="right_base_link"/>
     <child link="right_ring_1"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="1.4381" effort="10" velocity="1"/>
+    <limit lower="0" upper="1.4381" effort="10" velocity="10"/>
   </joint>
   <link name="right_ring_2">
     <inertial>
@@ -2490,7 +2490,7 @@
     <parent link="right_ring_1"/>
     <child link="right_ring_2"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="3.14" effort="10" velocity="1"/>
+    <limit lower="0" upper="3.14" effort="10" velocity="10"/>
     <mimic joint="right_ring_1_joint" multiplier="1.0843" offset="0"/>
   </joint>
   <link name="right_ring_force_sensor_2">
@@ -2604,7 +2604,7 @@
     <parent link="right_base_link"/>
     <child link="right_little_1"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="1.4381" effort="10" velocity="1"/>
+    <limit lower="0" upper="1.4381" effort="10" velocity="10"/>
   </joint>
   <link name="right_little_2">
     <inertial>
@@ -2633,7 +2633,7 @@
     <parent link="right_little_1"/>
     <child link="right_little_2"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="3.14" effort="10" velocity="1"/>
+    <limit lower="0" upper="3.14" effort="10" velocity="10"/>
     <mimic joint="right_little_1_joint" multiplier="1.0843" offset="0"/>
   </joint>
   <link name="right_little_force_sensor_2">
